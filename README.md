@@ -79,8 +79,4 @@ Các mô hình được huấn luyện và tối ưu hóa trên dữ liệu từ
 
 - **Mô hình tốt nhất**: LSTM đạt độ chính xác cao nhất (~72%) sau khi tuning hyperparameters, mô hình xử lý chưa tốt và còn cần cải thiện nhiều.
 
-<p align="center">
-  <a href="https://github.com/HTLinh0604/FakeNewsDetection">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=HTLinh0604&repo=FakeNewsDetection&theme=transparent&hide_border=false" />
-  </a>
-</p>
+
