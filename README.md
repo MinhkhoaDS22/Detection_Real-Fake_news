@@ -80,12 +80,4 @@ Các mô hình được huấn luyện và tối ưu hóa trên dữ liệu từ
 - **Mô hình tốt nhất**: LSTM đạt độ chính xác cao nhất (~72%) sau khi tuning hyperparameters, mô hình xử lý chưa tốt và còn cần cải thiện nhiều.
 
 
-<p align="center">
-  <a href="https://github.com/MinhkhoaDS22">
-    <img src="https://github-readme-stats.vercel.app/api?username=MinhkhoaDS22&show_icons=true&theme=radical&cache_seconds=3600&hide_border=false" height="160px"/>
-  </a>
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhkhoaDS22&layout=compact&theme=radical&hide_border=false&cache_seconds=3600">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MinhkhoaDS22&layout=compact&theme=radical&hide_border=flase&cache_seconds=3600" height="160px"/>
-  </a>
-</p>
 
