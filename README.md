@@ -13,9 +13,9 @@
 - **Người thực hiện**:
   - Hồ Gia Thành (2286400029)
   - Huỳnh Thái Linh (2286400015)
-  - Trương Minh Khoa (2286400011)
-- **Lớp**: 22DKHA1
-- **Thời gian**: TP. Hồ Chí Minh, 2025
+  - Trương Minh Khoa (2286400011) 
+- **Trường:** Trường Đại học Công nghệ TP. Hồ Chí Minh — *Khoa Công Nghệ Thông Tin* - *Ngành khoa học dữ liệu*
+- **Năm thực hiện:** 7/11/2025 
 
 ## Giới Thiệu
 
@@ -69,20 +69,13 @@ Dự án "Phát Hiện Tin Giả Trên Mạng Xã Hội" đã đạt được c�
 ### Hiệu Suất Mô Hình
 Các mô hình được huấn luyện và tối ưu hóa trên dữ liệu từ Gossipcop và Politifact, với kết quả nổi bật như sau:
 
-|        **Mô Hình**       | **Accuracy (%)** | **Precision (%)** | **Recall (%)** | **F1-Score (%)** | **ROC-AUC** |
-|--------------------------|------------------|-------------------|----------------|------------------|-------------|
-| Logistic Regression (LR) | 87.5             | 86.0              | 85.5           | 85.7             | 0.89        |
-| Random Forest (RF)       | 90.2             | 89.5              | 89.0           | 89.2             | 0.92        |
-| XGBoost (XGB)            | 91.8             | 91.0              | 90.5           | 90.7             | 0.93        |
-| BERT (Sau Tuning)        | 95.0             | 94.5              | 94.0           | 94.2             | 0.96        |
-| LSTM                     | 89.0             | 88.5              | 87.8           | 88.1             | 0.91        |
+|        **Mô Hình**       | **Accuracy (%)** | **Precision (%)** | **Recall (%)** | **F1-Score (%)** |
+|--------------------------|------------------|-------------------|----------------|------------------|
+| Logistic Regression (LR) | 70.7             | 70.7              | 70.7           | 70.7             |
+| Random Forest (RF)       | 69.7             | 69.9              | 69.7           | 69.6             |
+| XGBoost (XGB)            | 71.8             | 71.8              | 71.8           | 71.7             |
+| Decision Tree            | 63.9             | 63.9              | 63.9           | 63.9             |
+| LSTM                     | 71.9             | 72.2              | 71.9           | 71.9             |
 
-- **Mô hình tốt nhất**: BERT đạt độ chính xác cao nhất (~95%) sau khi tuning hyperparameters, chứng minh hiệu quả của các mô hình ngôn ngữ tiên tiến.
-- **So sánh**: XGBoost và Random Forest cũng cho kết quả ấn tượng (~90-92%), trong khi Logistic Regression là baseline với hiệu suất ổn định (~87%).
-
-### Trực Quan Hóa
-Kết quả được minh họa qua các biểu đồ trực quan, giúp dễ dàng so sánh hiệu suất giữa các mô hình:
-- **Biểu đồ So sánh Accuracy**:
-  ![So sánh Accuracy](path/to/your/image/BERT-tuning.png) <!-- Thay bằng đường dẫn thực tế đến hình ảnh từ code_final.ipynb -->
-  (Hiển thị hiệu suất Accuracy của các mô hình sau khi tuning.)
+- **Mô hình tốt nhất**: LSTM đạt độ chính xác cao nhất (~72%) sau khi tuning hyperparameters, mô hình xử lý chưa tốt và còn cần cải thiện nhiều.
 
